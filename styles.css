@@ -2,15 +2,24 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    min-height: 100vh;
 }
-
-.header-section, .footer {
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-around;
+}
+.hero {
     background-color: #1f2937;
     padding: 10px 150px 150px;
 }
 .nav-bar{
     display: flex;
     justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 85px;
+    align-items: center;
 }
 
 .logo {
@@ -21,7 +30,7 @@ body {
 .web-info {
     display: flex;
     justify-content: center;
-    padding-top: 20px;
+    gap: 25px;
 }
 
 .hero-main{
@@ -30,9 +39,22 @@ body {
     color:#f9faf8;
 }
 
-.hero-scnd{
+.hero-scnd, .image, a{
     font-size: 18px;
     color:#e5e7eb;
+}
+
+button, .sign-up{
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 20px;
+    color: white;
+}
+
+.image {
+    background-color: #b6bcca;
+    align-self: center;
 }
 
 ul{
@@ -40,7 +62,7 @@ ul{
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 10px;
+    gap: 15px;
     
 } 
 
