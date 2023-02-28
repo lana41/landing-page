@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     margin: 0;
     min-height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Roboto;
 }
 .content {
     display: flex;
@@ -12,13 +13,12 @@ body {
 }
 .hero {
     background-color: #1f2937;
-    padding: 10px 150px 150px;
+    padding: 10px 130px 125px;
 }
 .nav-bar{
     display: flex;
     justify-content: space-between;
-    padding-top: 10px;
-    padding-bottom: 85px;
+    padding-bottom: 95px;
     align-items: center;
 }
 
@@ -29,8 +29,13 @@ body {
 
 .web-info {
     display: flex;
-    justify-content: center;
-    gap: 25px;
+    justify-content: space-between;
+}
+
+.hero-section{
+    flex-shrink: 0;
+    max-width: 500px;
+    margin-right: 30px;
 }
 
 .hero-main{
@@ -42,19 +47,24 @@ body {
 .hero-scnd, .image, a{
     font-size: 18px;
     color:#e5e7eb;
+    padding-bottom: 12px;
 }
 
 button, .sign-up{
     background-color: #3882f6;
     border-radius: 5px;
     border: none;
-    padding: 5px 20px;
+    padding: 8px 40px;
     color: white;
+    font-weight: 580;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Roboto;
 }
 
 .image {
-    background-color: #b6bcca;
+    background-color: #768088;
     align-self: center;
+    flex-shrink: 0;
+    padding: 120px 130px;
 }
 
 ul{
