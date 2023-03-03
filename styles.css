@@ -118,3 +118,24 @@ a {
     text-align: center;
     width: 180px;
 }
+
+/*quote section*/
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 75px;
+}
+
+.quote p{
+    text-align:center;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote div{
+    text-align: end;
+    font-size: 15px;
+    font-weight: 600;
+}
