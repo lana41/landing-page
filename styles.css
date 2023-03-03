@@ -13,7 +13,7 @@ body {
 }
 .hero {
     background-color: #1f2937;
-    padding: 10px 130px 125px;
+    padding: 10px 150px 125px;
 }
 .nav-bar{
     display: flex;
@@ -82,3 +82,39 @@ a {
     color: #e5e7eb;
 }
 
+/* random content section */
+.card-container {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 120px;
+    justify-content: center;
+}
+
+.hdr {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: center;
+    padding: 50px;
+}
+
+.img-subtext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.img-subtext img{
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #3882f6;
+    border-width: 4px;
+    width: 160px;
+    height: 170px;
+}
+
+.img-subtext div{
+    text-align: center;
+    width: 180px;
+}
