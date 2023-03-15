@@ -123,19 +123,27 @@ a {
 
 .quote {
     background-color: #e5e7eb;
-    padding: 75px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
 }
 
-.quote p{
-    text-align:center;
+#qte{
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
     color: #1f2937;
+    margin-right: 120px;
+    margin-left: 120px;
+    padding-right: 60px;
+    padding-left: 60px;
 }
 
 .quote div{
-    text-align: end;
     font-size: 15px;
     font-weight: 600;
+    align-self: end;
+    padding-top: 30px;
+    margin-right: 145px;
+    padding-right: 60px;
 }
