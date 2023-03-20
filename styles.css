@@ -147,3 +147,26 @@ a {
     margin-right: 145px;
     padding-right: 60px;
 }
+
+/*Sign-Up Section*/
+
+.sign-up{
+    margin: 90px 180px;
+    background-color: #3882f6;
+    display: flex;
+    border-radius: 10px;
+    padding: 40px 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sign-info{
+    font-weight: lighter;
+}
+
+#btntwo{
+    border-color: #f9faf8;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 2px;
+}
