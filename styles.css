@@ -61,10 +61,8 @@ button, .sign-up{
 }
 
 .image {
-    background-color: #768088;
     align-self: center;
     flex-shrink: 0;
-    padding: 120px 130px;
 }
 
 ul{
@@ -110,8 +108,8 @@ a {
     border-radius: 20px;
     border-color: #3882f6;
     border-width: 4px;
-    width: 160px;
-    height: 170px;
+    width: 180px;
+    height: 220px;
 }
 
 .img-subtext div{
