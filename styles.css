@@ -1,9 +1,13 @@
+html{
+    scroll-behavior: smooth;
+}
 body {
     display: flex;
     flex-direction: column;
     margin: 0;
     min-height: 100vh;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, Roboto;
+    /*font-family: system-ui, -apple-system, BlinkMacSystemFont, Roboto;*/
+    font-family: Rubik, sans-serif;
 }
 .content {
     display: flex;
@@ -12,8 +16,8 @@ body {
     justify-content: space-around;
 }
 .hero {
-    background-color: #1f2937;
-    padding: 10px 150px 125px;
+    background-color: #000814;
+    padding: 5px 130px 30px 130px;
 }
 .nav-bar{
     display: flex;
@@ -23,8 +27,9 @@ body {
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 35px;
     color: #f9faf8;
+    font-family: Sacramento, sans-serif;
 }
 
 .web-info {
@@ -38,31 +43,43 @@ body {
     margin-right: 30px;
 }
 
+em{
+    font-family: Sacramento, sans-serif;
+    font-style: italic;
+}
+
 .hero-main{
     font-size: 48px;
     font-weight: bolder;
     color:#f9faf8;
+    padding-bottom: .3em;
 }
 
 .hero-scnd, .image, a{
     font-size: 18px;
     color:#e5e7eb;
-    padding-bottom: 12px;
+    padding-bottom: 1.2em;
 }
 
 button, .sign-up{
-    background-color: #3882f6;
+    background-color: #47bfff;
     border-radius: 5px;
     border: none;
     padding: 8px 40px;
     color: white;
     font-weight: 580;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, Roboto;
+    font-family: Rubik, sans-serif ;
 }
 
 .image {
     align-self: center;
     flex-shrink: 0;
+}
+.image img{
+    border-radius: 8px;
+    HEIGHT: 50vh;
+    WIDTH: 40vw;
+    object-fit: cover;
 }
 
 ul{
@@ -78,6 +95,7 @@ a {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
+    padding-right: 10px;
 }
 
 /* random content section */
@@ -89,11 +107,12 @@ a {
 }
 
 .hdr {
-    font-size: 36px;
-    font-weight: bold;
-    color: #1f2937;
+    font-size: 50px;
+    color: #000814;
     text-align: center;
     padding: 50px;
+    font-family: Sacramento, sans-serif;
+    text-decoration: 1px underline dashed;
 }
 
 .img-subtext{
@@ -103,13 +122,29 @@ a {
     gap: 5px;
 }
 
+.dog-st{
+    display: block;
+    margin: .5em;
+}
+
+.dog-st li{
+    list-style: none;
+    padding: 8px;
+    font-size: .9em;
+}
+
+.breed{
+    border-bottom: solid 1px;
+}
+
 .img-subtext img{
     border-style: solid;
     border-radius: 20px;
-    border-color: #3882f6;
+    border-color: #C79C6B;
     border-width: 4px;
     width: 180px;
     height: 220px;
+    object-fit: cover;
 }
 
 .img-subtext div{
@@ -120,37 +155,39 @@ a {
 /*quote section*/
 
 .quote {
-    background-color: #e5e7eb;
+    background-color: #000814;
     padding: 100px;
     display: flex;
     flex-direction: column;
 }
 
 #qte{
-    font-size: 36px;
+    font-size: 4.5rem;
     font-weight: lighter;
     font-style: italic;
-    color: #1f2937;
+    color: white;
     margin-right: 120px;
     margin-left: 120px;
     padding-right: 60px;
     padding-left: 60px;
+    text-align: center;
+    font-family: Sacramento;
 }
 
 .quote div{
-    font-size: 15px;
-    font-weight: 600;
-    align-self: end;
-    padding-top: 30px;
-    margin-right: 145px;
-    padding-right: 60px;
+    font-size: 16px;
+    font-weight: bolder;
+    padding-top: 15px;
+    text-align: center;
+    margin-left: 40vw;
+    color: white;
 }
 
 /*Sign-Up Section*/
 
 .sign-up{
     margin: 90px 180px;
-    background-color: #3882f6;
+    background-color: #47bfff;
     display: flex;
     border-radius: 10px;
     padding: 40px 10px;
@@ -171,7 +208,7 @@ a {
 
 /*Footer Section*/
 .footer{
-    background-color: #1f2937;
+    background-color: #000814;
     text-align: center;
     padding: 25px;
     color: white;
